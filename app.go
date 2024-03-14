@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func main() {
-	var investmentAmt float64 = 1000
-	returnAmt := 5.0
-	var years float64 = 5
-	var total = investmentAmt * math.Pow((1+returnAmt/100), years)
-	// fmt.Println("Hello, World!")
-	fmt.Println("Total amount is: ", total)
+	choise := 0
+	fmt.Println("Hello, World!")
+	fmt.Println("1. choise No1")
+	fmt.Println("2. choise No2")
+	fmt.Println("3. choise No3")
+	fmt.Scan(&choise)
+	fmt.Println("You choise ", &choise)
 }
